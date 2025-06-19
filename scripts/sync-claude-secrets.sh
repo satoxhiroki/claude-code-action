@@ -9,8 +9,8 @@ fi
 
 # Check if repository argument is provided
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 <daily-satire,CorporateSite,LpSite>"
-    echo "Example: $0 satoxhiroki/daily-satire,satoxhiroki/CorporateSite,satoxhiroki/LpSite"
+    echo "Usage: $0 <daily-satire,CorporateSite,LpSite,DiplomatMeetingList,EcosmaAPI>"
+    echo "Example: $0 satoxhiroki/daily-satire,satoxhiroki/CorporateSite,satoxhiroki/LpSite,satoxhiroki/DiplomatMeetingList,satoxhiroki/EcosmaAPI"
     exit 1
 fi
 
